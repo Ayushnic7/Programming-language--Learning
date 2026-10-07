@@ -556,6 +556,3 @@ list2 = [1,2,1]
 # print(type(info))
 
 # print(list(info))
-
-
-#ayush
