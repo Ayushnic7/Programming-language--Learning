@@ -1,4 +1,0 @@
-escaping master character
-
-\n for nest line in terminal
-\t for spacing
