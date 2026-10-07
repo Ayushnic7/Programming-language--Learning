@@ -451,25 +451,25 @@
 
 #QUESTION 1 - WAP TO ASK THE USER TO ENTER OF THEIR 3 FAVOURITE MOVIES AND STORE THEM IN A LIST?
  
-movies= []
+# movies= []
 
 #FIRST WAY TO DO THAT 
 
-mov1 = input("enter your first favourite movie: ")
-movies.append(mov1)
-mov2 = input("enter your second favourite movie: ") 
-movies.append(mov2)
-mov3 = input("enter your third favourite movie: ") 
-movies.append(mov3)
+# mov1 = input("enter your first favourite movie: ")
+# movies.append(mov1)
+# mov2 = input("enter your second favourite movie: ") 
+# movies.append(mov2)
+# mov3 = input("enter your third favourite movie: ") 
+# movies.append(mov3)
 
 #HERE WE SAW THAT HOW WE ADD THE MOVIES IN LIST WITH ANOTHER METHOD USING APPEND
 
 #ANOTHWER WAY OF DOING THIS
 
 
-movies.append(input("enter your first favourite movie: "))
-movies.append(input("enter your second favourite movie: "))
-movies.append(input("enter your third favourite movie: "))
+# movies.append(input("enter your first favourite movie: "))
+# movies.append(input("enter your second favourite movie: "))
+# movies.append(input("enter your third favourite movie: "))
 
 #THIS PRINT SHOULD BE AT LAST TOE ADDED LIST,
 # print(movies)
@@ -483,27 +483,27 @@ movies.append(input("enter your third favourite movie: "))
 # 123   → 321 ❌
 
 
-list1 = [1,2,3]
-list2 = [1,2,1]
+# list1 = [1,2,3]
+# list2 = [1,2,1]
 
-copy_list1 = list1.copy()
-copy_list1.reverse()
+# copy_list1 = list1.copy()
+# copy_list1.reverse()
 
-if(copy_list1 == list1):
-   print("palindrome")
-else:
-     print("NOT palindrome")
+# if(copy_list1 == list1):
+#    print("palindrome")
+# else:
+#      print("NOT palindrome")
 
 #      #FOR SECOND ONE
 
 
-copy_list2 = list2.copy()
-copy_list2.reverse()
+# copy_list2 = list2.copy()
+# copy_list2.reverse()
 
-if(copy_list2 == list2):
-   print("palindrome")
-else:
-     print("NOT palindrome")
+# if(copy_list2 == list2):
+#    print("palindrome")
+# else:
+#      print("NOT palindrome")
 
 
 
@@ -522,16 +522,16 @@ else:
                                                         #DICTIONARY IN PYTHON
 #we cannot duplicate the keys
 
-info = {
-      "key" : "value",
-      "name" : "gajodhar",
-      "learning" : ["coding","c++","java","html"],
-      "age" : "65",
-      "topis" : ("dict","ses"),
-      "in_adults": "true",
-      "marks" : "99.9",
-      "99.9" : "34.6"
-}                                                       
+# info = {
+#       "key" : "value",
+#       "name" : "gajodhar",
+#       "learning" : ["coding","c++","java","html"],
+#       "age" : "65",
+#       "topis" : ("dict","ses"),
+#       "in_adults": "true",
+#       "marks" : "99.9",
+#       "99.9" : "34.6"
+# }                                                       
 
 # print(info)
 # print(info["key"])
@@ -543,18 +543,18 @@ info = {
 # null_dictiponary["name"] = "ayyush kumar"
 # print(null_dictiponary)
 
-info = {
-        "key" : "value",
-        "subjects" : {
-                      "maths": "99.9",
-                      "english" :"99.9",
-                      "hindi" : "99",
-        }
+# info = {
+#         "key" : "value",
+#         "subjects" : {
+#                       "maths": "99.9",
+#                       "english" :"99.9",
+#                       "hindi" : "99",
+#         }
 
- }
-print(info)
-print(type(info))
+#  }
+# print(info)
+# print(type(info))
 
-print(list(info))
+# print(list(info))
 
 #MY NAME AYUSH FROM GAYA BIHAR 
