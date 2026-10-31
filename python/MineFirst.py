@@ -596,5 +596,9 @@ print(student)
 
 
                                                           # SETS IN PYTHON
-# A set is a collection of unique elements. It is unordered, meaning that the elements do not have a specific order. Sets are defined using curly braces {} or the set() function. Sets are mutable, meaning that we can add or remove elements from a set. However, the elements of a set must be immutable (e.g., numbers, strings, tuples). Sets do not allow duplicate elements.
+# A SET IS A COLLECTION OF UNIQUE ELEMENTS. IT IS UNORDERED, MEANING THAT THE ELEMENTS DO NOT HAVE A SPECIFIC ORDER. SETS ARE DEFINED USING CURLY BRACES {} OR THE SET() FUNCTION. SETS ARE MUTABLE, MEANING THAT WE CAN ADD OR REMOVE ELEMENTS FROM A SET. HOWEVER, THE ELEMENTS OF A SET MUST BE IMMUTABLE (E.G., NUMBERS, STRINGS, TUPLES). SETS DO NOT ALLOW DUPLICATE ELEMENTS.
           
+
+collection = {1, 2, 3, 4, 5, 5, 6, 7, 8, 9,}
+print(collection)
+print(len(collection)) # IT WILL PRINT THE LENGTH OF THE SET, WHICH IS 9. IT DOES NOT COUNT DUPLICATE ELEMENTS.
