@@ -566,14 +566,14 @@
 
                   #nested dictionary
 
-student = {
-    "name": "ayush",
-    "subjects": {
-        "maths": "99.9",
-        "english": "99.9",
-        "hindi": "99"
-    }
- }
+# student = {
+#     "name": "ayush",
+#     "subjects": {
+#         "maths": "99.9",
+#         "english": "99.9",
+#         "hindi": "99"
+#     }
+#  }
 # print(student["name"])
 # print(student["subjects"]["maths"])  # Accessing nested dictionary value
 # print(list(student))  # Getting list of keys in the dictionary
@@ -588,8 +588,8 @@ student = {
 # Print("AFTER")
 #THIS IS USED TO UPDATE THE VALUE OF A KEY IN A DICTIONARY. IF THE KEY DOES NOT EXIST, IT WILL ADD THE KEY-VALUE PAIR TO THE DICTIONARY. IF THE KEY EXISTS, IT WILL UPDATE THE VALUE OF THE KEY.
 #BEORE AND AFTER PRINT IS USED TO SHOW THE DICTIONARY BEFORE AND AFTER THE UPDATE.IT IS USED TO SHOW THE CHANGE IN THE DICTIONARY AFTER THE UPDATE.
-student.update({"name": "ayush kumar"}) # THIS IS USED TO UPDATE THE VALUE OF THE "name" KEY IN THE STUDENT DICTIONARY. IF THE "name" KEY DOES NOT EXIST, IT WILL ADD THE "name" KEY WITH THE
-print(student)
+# student.update({"name": "ayush kumar"}) # THIS IS USED TO UPDATE THE VALUE OF THE "name" KEY IN THE STUDENT DICTIONARY. IF THE "name" KEY DOES NOT EXIST, IT WILL ADD THE "name" KEY WITH THE
+# print(student)
 
 
 
@@ -599,6 +599,121 @@ print(student)
 # A SET IS A COLLECTION OF UNIQUE ELEMENTS. IT IS UNORDERED, MEANING THAT THE ELEMENTS DO NOT HAVE A SPECIFIC ORDER. SETS ARE DEFINED USING CURLY BRACES {} OR THE SET() FUNCTION. SETS ARE MUTABLE, MEANING THAT WE CAN ADD OR REMOVE ELEMENTS FROM A SET. HOWEVER, THE ELEMENTS OF A SET MUST BE IMMUTABLE (E.G., NUMBERS, STRINGS, TUPLES). SETS DO NOT ALLOW DUPLICATE ELEMENTS.
           
 
-collection = {1, 2, 3, 4, 5, 5, 6, 7, 8, 9,}
-print(collection)
-print(len(collection)) # IT WILL PRINT THE LENGTH OF THE SET, WHICH IS 9. IT DOES NOT COUNT DUPLICATE ELEMENTS.
+# collection = {1, 2, 3, 4, 5, 5, 6, 7, 8, 9,}
+# print(collection)
+# print(len(collection)) # IT WILL PRINT THE LENGTH OF THE SET, WHICH IS 9. IT DOES NOT COUNT DUPLICATE ELEMENTS.
+
+# collection = {} # THIS CREATES AN EMPTY SET.
+# print(type(collection)) # IT WILL PRINT THE TYPE OF COLLECTION, WHICH IS DICTIONARY. BECAUSE {} IS USED TO CREATE AN EMPTY DICTIONARY. TO CREATE AN EMPTY SET, WE USE set() FUNCTION.
+# print(len(collection)) # IT WILL PRINT THE LENGTH OF THE SET, WHICH IS 0. IT DOES NOT COUNT DUPLICATE ELEMENTS.
+
+# SETS METHODS : THE FOLLOWING ARE SOME OF THE MOST COMMONLY USED SET METHODS IN PYTHON:
+# set.add(element) # ADDS AN ELEMENT TO THE SET.
+# set.remove(element) # REMOVES AN ELEMENT FROM THE SET. IF THE ELEMENT IS NOT PRESENT IN THE SET, IT RAISES A KEYERROR.
+# set.discard(element) # REMOVES AN ELEMENT FROM THE SET. IF THE ELEMENT IS NOT PRESENT IN THE SET, IT DOES NOT RAISE AN ERROR.     
+# set.pop() # REMOVES AND RETURNS AN ARBITRARY ELEMENT FROM THE SET. IF THE SET IS EMPTY, IT RAISES A KEYERROR.
+# set.clear() # REMOVES ALL ELEMENTS FROM THE SET.
+# set.union(other_set) # RETURNS A NEW SET THAT CONTAINS ALL ELEMENTS FROM BOTH SETS.
+# set.intersection(other_set) # RETURNS A NEW SET THAT CONTAINS ONLY THE ELEMENT
+
+# collection = set() # THIS CREATES AN EMPTY SET.
+# print(type(collection)) # IT WILL PRINT THE TYPE OF COLLECTION, WHICH IS SET. BECAUSE set() FUNCTION IS USED TO CREATE AN EMPTY SET.
+
+# collection = set()
+# collection.add(1)
+# collection.add(2)
+# collection.add("ayushkumar")
+# collection.add((1,2,3))
+
+# collection.clear()
+# print(len(collection))
+
+collection = {"hello", "myworld" , "first" , "coding" }
+
+print(collection.pop())
+print(collection.pop())
+
+
+
+# set.union(other_set) # RETURNS A NEW SET THAT CONTAINS ALL ELEMENTS FROM BOTH SETS.
+# set.intersection(other_set) # RETURNS A NEW SET THAT CONTAINS ONLY THE ELEMENT
+
+# set1 = {1, 2, 3, 4, 5}
+# set2 = {4, 5, 6, 7, 8}
+
+# print(set1.union(set2))
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+print(set1.intersection(set2))
+
+# QUESTIONRANDOM
+# LET'S PRACTICE
+# STORE FOLLOWING WORD MEANINGS IN A PYTHON DICTIONARY:
+# TABLE "A PIECE OF FURNITURE", "LIST OF FACTS & FIGURES"
+# CAT: "A SMALL ANIMAL"
+
+
+# dictonary = {
+#            "cat" :"a small animal ",
+#            "table" : ["a piece of furniture","list of facts & figure"]
+           
+
+# }
+
+# print(dictonary)
+
+
+# QUESTIONRANDOM
+# YOU ARE GIVEN A LIST OF SUBJECTS FOR STUDENTS. ASSUME ONE CLASSROOM IS REQUIRED FOR 1 SUBJECT. HOW MANY CLASSROOMS ARE NEEDED BY ALL STUDENTS.
+# "PYTHON", "JAVA", "C++", "PYTHON", "JAVASCRIPT",
+# "JAVA", "PYTHON", "JAVA", "C++", "C"
+
+
+# subjects = {
+#     "python", "java", "c++", "python" , "javascript", "java",
+#     "python", "java", "c++", "c"
+
+# }
+
+# print(subjects)
+# print(len(subjects))
+
+# QUESTIONRANDOM
+# LET'S PRACTICE
+# WAP TO ENTER MARKS OF 3 SUBJECTS FROM THE USER AND STORE THEM IN A DICTIONARY. START WITH AN EMPTY DICTIONARY & ADD ONE BY ONE. USE SUBJECT NAME AS KEY & MARKS AS VALUE.
+
+# marks = {}
+
+# x = int(input("enter phy :  "))
+# marks.update({"phy" : x })
+
+
+# x = int(input("enter math :  "))
+# marks.update({"math" : x })
+
+
+# x = int(input("enter bio :  "))
+# marks.update({"bio" : x })
+
+
+# x = int(input("enter che :  "))
+# marks.update({"che" : x })
+
+
+# x = int(input("enter eng :  "))
+# marks.update({"eng" : x })
+
+
+# print(marks)
+
+
+#RANDOMQUESTION
+# FIGURE OUT A WAY TO STORE 9 & 9.0 AS SEPARATE VALUES IN THE SET. (YOU CAN TAKE HELP OF BUILT-IN DATA TYPES)
+
+# values = {
+#     ("float", 9.0),
+#     ("int", 9)
+# }
+# print(values)
