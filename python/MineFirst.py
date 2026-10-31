@@ -265,8 +265,8 @@
 #NESTING = NESTING IS USED TO CHECK MULTIPLE CONDITIONS IN A SINGLE IF-ELIF-ELSE BLOCK. IT IS USED TO CHECK A CONDITION INSIDE ANOTHER CONDITION.
 #its work like if the first condition is true then it will check the second condition and if the second condition is true then it will execute the block of code inside the second condition.
 
-#Q for myself : 
-#age = 80 #already but i modidify for myself
+# Q for myself : 
+# age = 80 #already but i modidify for myself
 # age = int(input("enter a number: "))
 
 # if (age >= 18):
@@ -292,7 +292,7 @@
 # a = int(input("enter first number: "))
 # b = int(input("enter second number: "))     
 # c = int(input("enter third number: "))                 
-# 5,982,153
+# 5,982,1530
 
 # if (a > b and a > c):
 #     print("first is greatest number :", a) 
@@ -522,6 +522,13 @@
                                                         #DICTIONARY IN PYTHON
 #we cannot duplicate the keys
 
+# dictionary methods : the following are some of the most commonly used dictionary methods in Python:
+# my_dict.keys() # returns a list of all the keys in the dictionary
+# my_dict.values() # returns a list of all the values in the dictionary
+# my_dict.items() # returns a list of all the key-value pairs in the dictionary
+# my_dict.get(key) # returns the value for the specified key
+# my_dict.update({key: value}) # updates the value for the specified key
+
 # info = {
 #       "key" : "value",
 #       "name" : "gajodhar",
@@ -540,7 +547,7 @@
 # We use [] because dictionaries are accessed using keys. () is used for calling functions, and . is generally used for accessing methods or attributes. So remember: Dictionary → dict["key"] → value.
 
 # null_dictiponary ={}
-# null_dictiponary["name"] = "ayyush kumar"
+# null_dictiponary["name"] = "ayush kumar"
 # print(null_dictiponary)
 
 # info = {
@@ -554,5 +561,40 @@
 #  }
 # print(info)
 # print(type(info))
-
 # print(list(info))
+
+
+                  #nested dictionary
+
+student = {
+    "name": "ayush",
+    "subjects": {
+        "maths": "99.9",
+        "english": "99.9",
+        "hindi": "99"
+    }
+ }
+# print(student["name"])
+# print(student["subjects"]["maths"])  # Accessing nested dictionary value
+# print(list(student))  # Getting list of keys in the dictionary
+# print(student.values())  # Getting list of values in the dictionary
+# print(student.items())  # Getting list of key-value pairs in the dictionary
+# print(student.get("name"))  # Getting value for a specific key
+#but if i wrote print(student.get("name2"))    THEN IT WILL GIVE ME NONE COZ THERE IS NO KEY WITH NAME2 IN THE DICTIONARY.AND ALSO NOT GAVE ME ERROR COZ GET() METHOD IS USED TO GET THE VALUE OF A KEY IN A DICTIONARY. IF THE KEY IS NOT PRESENT IN THE DICTIONARY, IT RETURNS NONE INSTEAD OF RAISING AN ERROR. THIS IS USEFUL WHEN YOU WANT TO CHECK IF A KEY EXISTS IN THE DICTIONARY WITHOUT CAUSING AN EXCEPTION.
+
+
+# print("BEFORE")
+# print(student)
+# Print("AFTER")
+#THIS IS USED TO UPDATE THE VALUE OF A KEY IN A DICTIONARY. IF THE KEY DOES NOT EXIST, IT WILL ADD THE KEY-VALUE PAIR TO THE DICTIONARY. IF THE KEY EXISTS, IT WILL UPDATE THE VALUE OF THE KEY.
+#BEORE AND AFTER PRINT IS USED TO SHOW THE DICTIONARY BEFORE AND AFTER THE UPDATE.IT IS USED TO SHOW THE CHANGE IN THE DICTIONARY AFTER THE UPDATE.
+student.update({"name": "ayush kumar"}) # THIS IS USED TO UPDATE THE VALUE OF THE "name" KEY IN THE STUDENT DICTIONARY. IF THE "name" KEY DOES NOT EXIST, IT WILL ADD THE "name" KEY WITH THE
+print(student)
+
+
+
+
+
+                                                          # SETS IN PYTHON
+# A set is a collection of unique elements. It is unordered, meaning that the elements do not have a specific order. Sets are defined using curly braces {} or the set() function. Sets are mutable, meaning that we can add or remove elements from a set. However, the elements of a set must be immutable (e.g., numbers, strings, tuples). Sets do not allow duplicate elements.
+          
