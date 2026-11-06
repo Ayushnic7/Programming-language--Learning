@@ -28,8 +28,8 @@
 # print(a * b) # multiplication 
 # print(a / b) # for divivson
 # print(a % b) # % its used for finding remainder
-# print(a ** b) # here ** is used as power mean a^b (isme jo ahai jo pehle hai usko utna baar multiple kiya jaiygega jitna digit likha hoga like 5 ko yaha 2 baar 5 se multiply )
-#  a^b means a to the power b matlab jo b hai wo a ka power hai
+# print(a ** b) # HERE ** IS USED AS POWER MEAN A^B (ISME JO AHAI JO PEHLE HAI USKO UTNA BAAR MULTIPLE KIYA JAIYGEGA JITNA DIGIT LIKHA HOGA LIKE 5 KO YAHA 2 BAAR 5 SE MULTIPLY )
+#  A^B MEANS A TO THE POWER B MATLAB JO B HAI WO A KA POWER HAI
 
 
 #RATIONAL OPERATORS
@@ -543,8 +543,9 @@
 # print(info)
 # print(info["key"])
 # print(info["name"])
-#A dictionary in Python stores data as key-value pairs. We use square brackets [] to get a value using its key. For example, info["name"] means find the "name" key inside info and give me its value, which is "gajodhar". Similarly, info["age"] gives "65".
-# We use [] because dictionaries are accessed using keys. () is used for calling functions, and . is generally used for accessing methods or attributes. So remember: Dictionary → dict["key"] → value.
+
+# A dictionary in Python stores data as key-value pairs. We use square brackets [] to get a value using its key. For example, info["name"] means find the "name" key inside info and give me its value, which is "gajodhar". Similarly, info["age"] gives "65".
+#  We use [] because dictionaries are accessed using keys. () is used for calling functions, and . is generally used for accessing methods or attributes. So remember: Dictionary → dict["key"] → value.
 
 # null_dictiponary ={}
 # null_dictiponary["name"] = "ayush kumar"
@@ -717,3 +718,33 @@ print(set1.intersection(set2))
 #     ("int", 9)
 # }
 # print(values)
+
+
+
+                                                          # LOOPS IN PYTHON
+
+#loops are used to execute a block of code repeatedly until a certain condition is met. In Python, we have two types of loops: for loop and while loop.
+
+count = 1 
+while count <= 10000:
+    print ("hello", count)
+    count += 1
+
+
+# so here we have used while loop to print hello 5 times. 
+# The condition is count <= 5, so the loop will run until count is less than or equal to 5.
+# The count variable is incremented by 1 in each iteration using count += 1. 
+# When count becomes 6, the condition becomes false and the loop stops executing.
+# and this helps us to avoid writing the same code multiple times. 
+# We can use loops to execute a block of code multiple times without having to write the same code again and again.
+
+
+
+
+
+
+
+
+
+
+
